@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+body{
+      font-family: 'Libre Baskerville', serif;
+      background-color: #f8d9c2;
+}
+
+#navigation_bar{
+      text-align: center;
+      background-color: #f8d9c2;
+      position:sticky;
+      top: 0;
+      padding: 0.7em;
+      z-index: 10;
+}
+
+#navigation_bar ol li{
+      display: inline-block;
+}
+
+/*Kopier link CSS */
+a{
+      text-decoration: none;
+      color: #663614;
+}
+
+.active:hover a{
+      text-decoration-line: underline;
+      color:#663614;
+}
+
+.dropdown {
+      position: relative;
+}
+
+.dropdown .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: #f8d9c2;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+}
+
+.dropdown .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+}
+  
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+
+.tablinks{
+      border: none;
+      font-size: 1.5em;
+      font-family: 'Bitter', sans-serif;
+      background-color: #f8d9c2;
+      padding-right:2em;
+}
+
+.tabcontent p{
+      width: 70%;
+}
+
+.alexander_h1{
+      font-size: 72px;
+      text-align: center;
+}
+
+.alexander_short h2{
+      font-size: 24px;
+      padding: 30px;
+      text-align: center;
+}
+
+.alexander_short p{
+      font-family: "Bitter", sans-serif;
+      line-height: 1.5;
+      font-size: 20px;
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.mosaic_container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1em;
+}
+
+figcaption{
+      padding: 1em;
+      display: block;
+      background-color: #bb6e37;
+}
+
+.mosaic_container figcaption{
+      width: 47.5%;
+}
+
+.painted_image_alex{
+      width: 50%;
+}
+

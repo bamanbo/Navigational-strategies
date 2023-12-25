@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
+
+body{
+      font-family: 'Libre Baskerville', serif;
+      background-color: #f8d9c2;
+}
+
+#navigation_bar{
+      text-align: center;
+      background-color: #f8d9c2;
+      position:sticky;
+      top: 0;
+      padding: 0.7em;
+      z-index: 10;
+}
+
+#navigation_bar ol li{
+      display: inline-block;
+}
+
+/*Kopier link CSS */
+a{
+      text-decoration: none;
+      color: #663614;
+}
+
+.active:hover a{
+      text-decoration-line: underline;
+      color:#663614;
+}
+
+.dropdown {
+      position: relative;
+}
+
+.dropdown .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: #f8d9c2;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+}
+
+.dropdown .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+}
+  
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+
+.tablinks{
+      border: none;
+      font-size: 1.5em;
+      font-family: 'Bitter', sans-serif;
+      background-color: #f8d9c2;
+      padding-right:2em;
+}
+
+.tabcontent h1{
+      text-align: center;
+      font-size: 55px;
+}
+
+.tabcontent p{
+      width: 70%;
+}
+
+.route_alex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.route_alex img{
+      width: 1000px;
+
+}
+
+.route_alex_text{
+      text-align: center;
+}
+
+.route_alex_text table {
+      width: 90%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.route_alex_text th, .route_alex_text td{
+      font-family: "Bitter", sans-serif;
+      line-height: 1.5;
+      font-size: 20px;
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+}
+
+.route_alex_text th{
+      background-color: #f8d9c2;
+      color: #663614;
+}
+  
+.route_alex_text td {
+      background-color: #fff;
+      color:#663614;
+}
+  
+.route_alex_text td i {
+      font-weight: 600;
+}
+  
+.route_alex_text a {
+      text-decoration: underline;
+      color: #663614;
+}
+  
+  
